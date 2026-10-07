@@ -1,0 +1,20 @@
+{
+  "name": "edtech-domain-mailer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test --import tsx tests/deadline_delivery.test.ts",
+    "start": "tsx src/course_delivery_service.ts",
+    "demo": "tsx src/run_course_delivery.ts"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3",
+    "@types/node": "^22.7.4"
+  }
+}
